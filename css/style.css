@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+
+.header{
+    text-align: center;
+    align-self: center;
+    background-color: rgb(53, 53, 53);
+    width: 100%;
+}
+
+.corps {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.menu {
+    background-color: rgb(71, 71, 71);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    width: 11%;
+    height: auto;
+    object-fit: contain;
+}
+
+.principal {
+    background-color: #333;
+    padding: 0% 2%;
+    text-align: center;
+    width: 89%;
+    height: auto;
+    object-fit: contain;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+table img {
+    width:150px;
+    height:80px;
+}
+
+.footer {
+    background-color: #8d8f7d;
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    align-self: flex-end;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav img {
+    max-width: 36px;
+    height: auto;
+    object-fit: contain;
+    float: left;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: rgb(71, 71, 71);
+    color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #8d8f7d;
+    color: white;
+}
+
+.topnav a.panier {
+    background-color: #333;
+    color: #f2f2f2;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #8d8f7d7a;
+}
+
+th {
+    background-color: #8d8f7d;
+    color: white;
+    text-align: center;
+}
+
+.button {
+    background-color: #8d8f7d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition-duration: 0.2s;
+  }
+
+.button:hover{
+    background-color: #333;
+    border: 2px solid #8d8f7d;
+}
+
+.divCommande{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.divCommande .button{
+    padding: 0px 5px;
+}
+
+.buttonPanier{
+    background-color: transparent;
+    color: white;
+    padding: 5px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid rgb(71, 71, 71);
+}
