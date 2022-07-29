@@ -20,7 +20,7 @@
          <h1 class="principal" style="font-size: 40px; width:100%">
             <i class="fa fa-clock-o" aria-hidden="true"></i> HORAIRES D'OUVERTURE <i class="fa fa-clock-o" aria-hidden="true"></i>
             <img src = "../../img/carte_de_visite_cut.png" style="width:100%" />        
-            <p>DU LUNDI AU SAMEDI <br>8h00-12h00, 14h00-19h00</p>
+            <p>OUVERT <br>DU LUNDI AU SAMEDI <br>8h00-12h00, 14h00-19h00</p>
 
 
          </h1>
