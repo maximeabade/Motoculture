@@ -1,28 +1,27 @@
 <?php
 
-    session_start();
-
+  session_start();
+ 
 ?>
 
 <div class="header">
-    <div class="topnav">
-        <img src="../../img/kulkulkan.jpg" alt="logo" />
-        <a href="../pages/accueil.php">Société Kukulkan</a>
-        <a href="../pages/produit.php?cat=cigarettes">Cigarettes</a>
-        <a href="../pages/produit.php?cat=gouts">Goûts</a>
-        <a href="../pages/produit.php?cat=accessoires">Accessoires</a>
+    <div class="topnav" id="myTopnav">
+        <img src="../../img/logo.jpg" alt="logo" style="width: 100px;"/> 
+        <a href="../pages/accueil.php">Accueil</a>
+        <a href="../pages/horaires.php">Horaires</a>
         <a href="../pages/contact.php">Contact</a>
-        <?php
-
-            if ($_SESSION['pseudo'] != "") {
-                echo '
-                <a href="../services/deconnexion.php" style="float:right" class="active">Déconnexion</a>
-                <a style="float:right" class="panier">Panier : '.$_SESSION['panier'].'€</a>
-                ';
-            } else {
-                echo '<a href="../pages/connexion.php" style="float:right" class="active">Connexion</a>';
-            }
-
-        ?>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 </div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
