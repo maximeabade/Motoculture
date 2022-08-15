@@ -23,7 +23,7 @@
         <div class="principal">
 
             <h2 style="font-size:50px">Contactez nous!</h2>
-
+ 
             <?php 
             if (isset($_GET['mail'])) { 
                 echo('<p>Votre message a bien été envoyé.</p>'); 
