@@ -22,16 +22,91 @@
     <?php require("../components/header.php"); ?>
 
     <!-- le corps de la page -->
-    <div class="corps">
-        <!-- le contenu principal à droite de la page -->
-        <h1 class="principal" style="font-size: 40px; font-weight : bold; width:100%">
-            ENTRETIEN ET RÉPARATION TOUTES MARQUES <br> MOTOCULTURE - QUAD - MATÉRIEL VITICOLE ET TP 
-            <img src = "../../img/carte_de_visite_cut.png" style="width:100%" />        
-            <a href="tel:+33676862685" style="color:black; font-size:auto"><i class="fa fa-phone" aria-hidden="true"></i>  06.76.86.26.85</a><br><br>
-            <a href="mailto:save.thierry@gmail.com" style="color:black;max-width:80%;font-size:auto"><i class="fa fa-envelope" aria-hidden="true"></i>  save.thierry@gmail.com</a><br>
-            <p style="color:black; font-size:auto"><i class="fa fa-map-marker" aria-hidden="true"></i>  11200 Lézignan-Corbières</p>
-        </h1>
+
+<!-- Container (About Section) -----------------------------------------------------------------------------------PRÉSENTATION ICI  -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>A propos</h2><br>
+      <h4>Je suis un auto-entrepreneur avec 30 ans d'expérience dans le milieu de la réparation automobile qui effectue des réparations sur Lézignan-sur-Corbières (11200) et alentours, cela fait maintenant 6 ans que mon entreprise a vu le jour</h4><br>
+      <p><strong>Activités:</strong> Entretien et réparation motoculture agricole, véhicules, achat, vente de pièces détachées et accessoires</p>
+      <br><button class="btn btn-default btn-lg">Get in Touch</button>
     </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Mes valeurs</h2><br>
+      <h4><strong>MISSION:</strong> Vous garantir le meilleur des réparations à taux horaire fixe, et une transparence sans faille</h4><br>
+      <h5><strong>VISION:</strong> Tous les aspects de mon métier me pasionnent. Soyez acteur de la réparation de votre matériel ou de votre véhicule, et confiez-le moi! </h5>
+    </div>
+  </div>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------->
+
+<!-- Container (Services Section) ---------------------------------------------- ICI PRÉSENTATION DES SERVICES -->
+<div id="services" class="container-fluid text-center">
+  <h2>SERVICES</h2>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-off logo-small"></span>
+      <h4>POWER</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <h4>LOVE</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>JOB DONE</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-leaf logo-small"></span>
+      <h4>GREEN</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-certificate logo-small"></span>
+      <h4>CERTIFIED</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-wrench logo-small"></span>
+      <h4 style="color:#303030;">HARD WORK</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+  </div>
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--Container Pricing--------------------------------------------------------------------------------------------------------------- ICI PRIX ------->
+
+
+<!-- FIN PRICING ------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+<!-- Container (Contact Section) ---------------------------------------------------------------------------------------------------------------------->
+    <?php include("../../contact.php"); //TODO: GÉRER LENVOI DE MAIL ET LE CSS DU FORMULAIRE ?>
+        
+
+<!-- Fin container contact ---------------------------------------------------------------------------------------------------------------------------->
 
 
     <!-- le footer de la page -->

@@ -24,3 +24,7 @@
     </div>
   </div>
 </nav>
+<div class="jumbotron text-center">
+  <h1>Company</h1> 
+  <p>We specialize in blablabla</p> 
+</div>
