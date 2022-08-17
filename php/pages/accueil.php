@@ -30,7 +30,7 @@
       <h2>A propos</h2><br>
       <h4>Je suis un auto-entrepreneur avec 30 ans d'expérience dans le milieu de la réparation automobile qui effectue des réparations sur Lézignan-sur-Corbières (11200) et alentours, cela fait maintenant 6 ans que mon entreprise a vu le jour</h4><br>
       <p><strong>Activités:</strong> Entretien et réparation motoculture agricole, véhicules, achat, vente de pièces détachées et accessoires</p>
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      <br><a href="#contact"><button class="btn btn-default btn-lg">Contactez-moi</button></a>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-signal logo"></span>
@@ -55,43 +55,19 @@
 <!-- Container (Services Section) ---------------------------------------------- ICI PRÉSENTATION DES SERVICES -->
 <div id="services" class="container-fluid text-center">
   <h2>SERVICES</h2>
-  <h4>What we offer</h4>
+  <h4>Voici mes deux principales prestations</h4>
   <br>
   <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+    <div class="col-sm-6">
+      <h4>RÉPARATION</h4>
+      <p>Je répare votre matériel de motoculture à main d'oeuvre à tarif fixe<br><a href="#prix">Cliquez ici pour voir à quel prix</a></p>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-6">
       <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <h4>ENTRETIEN</h4>
+      <p>J'effectue un entreiten régulier de votre matériel, anticipe les problèmes, et résouds ceux que je vois, et toujours à main d'oeuvre à tarif fixe<br><a href="#prix">Cliquez ici pour voir à quel prix</a></p>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div>
   <br><br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div>
 </div>
 <!--------------------------------------------------------------------------------------------------------------------------------------------------->
 
